@@ -86,12 +86,12 @@ if(isset($_POST['gasoline'])){
                     <td><?= rand(1111111111,9999999999)?></td>
                     <td><?= $_POST['name']?></td>
                     <td><?= $_POST['phone']?></td>
-                    <td><?= $_POST['date'].' '.$_POST['time']?></td>
+                    <td><?= $_POST['dante'].' '.$_POST['time']?></td>
                     <td><?= date("Y-m-d", $checkout).' '.$_POST['time']?></td>
-                    <td><?= $car?></td>
+                    <td><?= $cars?></td>
                     <td>
                         <ul>
-                        <?php if(isset($_POST['driver'])):?><li>Driver</li><?php endif?>
+                        <?php if(isset($_P0ST['driver'])):?><li>Driver</li><?php endif?>
                         <?php if(isset($_POST['insurance'])):?><li>Trip Insurance</li><?php endif?>
                         <?php if(isset($_POST['gasoline'])):?><li>Full Filled</li><?php endif?>
                         </ul>
